@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="./login" method="post"
+		style="margin-top: 150px; margin-left: 500px">
+		
+		<table style="font-size: 20px">
+		
+			<tr>
+				<td>Id:</td>
+				<td><input name="password" type="text"
+					placeholder="enter Id"></td>
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td><input name="password" type="text"
+					placeholder="enter name"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input name="email" type="text" placeholder="enter email"></td>
+			</tr>
+
+			
+
+			<tr>
+				<td></td>
+				<td><input name="register" value="login" type="submit"
+					text-align="center"></td>
+			</tr>
+
+		</table>
+
+	</form>
+	<a href="./register.html" style="margin-top: 250px; margin-left: 500px;">Register</a>
+</body>
+</html>
